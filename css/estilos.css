@@ -1,0 +1,38 @@
+body{
+    width: 60%;
+    margin-left: 20%;
+}
+
+h4 {
+    text-align: center;
+}
+p {
+    font-weight: bold;
+    text-align: center;
+}
+input {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+}
+
+li{
+    font-weight: bold;
+    margin: 10px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+#puntos {
+    width: 40%;
+    display: inline-block;
+}
+
+#nivel {
+    width: 40%;
+    display: inline-block;
+}

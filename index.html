@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Trivia</title>
+</head>
+<body>
+    <div id="inicio">
+        <p>Ingrese su nombre</p>
+        <input type="text" id="jugador">
+        <button id="Iniciar">Iniciar juego</button>
+    </div>
+    <div id="trivia">
+        <div>
+            <div>
+                <h4 id="preg">¿Como te llamas?</h4>
+            </div>
+            <div>
+                <p id="nivel"></p>
+                <p id="puntos"></p>
+            </div>
+            </div>
+        <div>
+            <ul>
+                <li id="op1">No sé</li>
+                <li id="op2">Christian</li>
+                <li id="op3">Adrián</li>
+                <li id="op4">Carlos</li>
+            </ul>
+        </div>
+        <button id="finalizar">Finalizar juego</button>
+    </div>
+    <script src="db/data.js"></script>
+    <script src="js/classes/Jugador.js"></script>
+    <script src="js/classes/Pregunta.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
